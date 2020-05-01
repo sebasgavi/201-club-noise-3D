@@ -1,0 +1,23 @@
+body{
+  margin: 0;
+  overflow: hidden;
+}
+
+.modifiers{
+  position: fixed;
+  right: 0;
+  top: 0;
+  background-color: rgba(255,255,255,.4);
+  width: 200px;
+  padding: 20px;
+  font-family: monospace;
+}
+
+.modifier{
+  display: block;
+}
+
+.modifier input{
+  width: 100%;
+  margin-bottom: 20px;
+}
